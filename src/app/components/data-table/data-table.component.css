@@ -1,0 +1,67 @@
+table {
+  margin-top: 20px;
+}
+
+th {
+  background-color: rgb(219, 255, 206);
+  color: #2b2b2b;
+}
+
+.dataTableStyle {
+  width: 95%;
+  margin: 10px auto 0;
+}
+
+tr.detail-row {
+  height: 0;
+}
+
+tr.element-row:hover {
+  background: #f5f5f5;
+}
+
+tr.element-row:active {
+  background: #efefef;
+}
+
+.element-row td {
+  border-bottom-width: 0;
+}
+
+.element-detail {
+  overflow: hidden;
+  display: flex;
+}
+
+.flexView {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexViewCenter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.expandedTxt {
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchInput {
+  border: none;
+  text-decoration: none;
+}
+
+.searchBar {
+  margin-right: 40px;
+}
+
+.tableTitle {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 15px;
+  margin-right: calc(50% - 320px);
+}

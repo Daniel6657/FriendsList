@@ -1,18 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { MatTableModule } from '@angular/material/table';
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { DataTableComponent } from './components/data-table/data-table.component';
+import { UserListComponent } from './components/user-list/user-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+  DataTableComponent,
+  UserListComponent,  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatTableModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
 export class AppModule { }
