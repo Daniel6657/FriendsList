@@ -1,0 +1,14 @@
+.exposed-text {
+    color: snow; 
+    text-shadow: 0px 2px 3px #555;
+}
+
+.form-group {
+    float: left;
+}
+
+.container-form {
+    margin-top: 15%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}

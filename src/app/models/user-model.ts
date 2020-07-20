@@ -4,6 +4,8 @@ export interface User {
   lastName: string;
   age: number;
   nationality: string;
+  favouriteColor: string;
+  favouriteFood: string;
   phoneNumber: string;
   email: string;
 }

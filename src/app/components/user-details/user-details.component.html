@@ -1,0 +1,80 @@
+<div class="container">  
+    <div class="row">
+        <div class="col-md-3 container-left">
+            <img src="assets/icons/white-couple.png" alt=""/>
+            <h4>Information about</h4>
+            <h3 class="exposed-text">{{ userFirstName }} {{ userLastName }}</h3>
+            <p>Try to remember {{ userFirstName }}'s favourite food.</p>
+            <p>You can talk about it on the next meeting.</p>
+
+            <button class="outer-container-button" (click)="navToUsersTable()">Return to table</button>
+        </div>
+        <div class="col-md-9 container-right">
+            <form [formGroup]="userForm" class="container-inner container-form">
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <label for="firstName">
+                            First name:
+                        </label>
+                        <input type="text" id="firstName" class="form-control" formControlName="firstName">
+                    </div>
+
+                    <div class="form-group col-md-8">
+                        <label for="lastName">
+                            Last name:
+                        </label>
+                        <input type="text" id="lastName" class="form-control" formControlName="lastName">
+                    </div>
+                </div>
+                <div class ="row">
+                    <div class="form-group col-md-12">
+                        <label for="favouriteFood">
+                            Favourite food:
+                        </label>
+                        <input type="text" id="favouriteFood" class="form-control" formControlName="favouriteFood">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <label for="favouriteColor">
+                            Favourite color:
+                        </label>
+                        <input type="text" id="favouriteColor" class="form-control" formControlName="favouriteColor">
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label for="age">
+                            Age:
+                        </label>
+                        <input id="age" type="text" class="form-control" formControlName="age">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="nationality">
+                            Nationality:
+                        </label>
+                        <input id="nationality" type="text" class="form-control" formControlName="nationality">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <label for="phoneNumber">
+                            Phone number:
+                        </label>
+                        <input id="phoneNumber" type="text" class="form-control" formControlName="phoneNumber">
+                    </div>
+
+                    <div class="form-group col-md-8">
+                        <label for="email'">
+                            Email:
+                        </label>
+                        <input id="email'" type="text" class="form-control  " formControlName="email">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -1,6 +1,26 @@
-<data-table #dataTable"
-            [dataSource]="users"
-            [displayedColumns]="displayedColumns"
-            [englishColumnNames]="englishColumnNames"
-            (onSelect)="onRowSelect($event)">
-</data-table>
+<div class="container">  
+    <div class="row">
+        <div class="col-md-3 container-left">
+            <img src="assets/icons/white-couple.png" alt=""/>
+            <h3>Hi there!</h3>
+            <p>Here you can learn something about great people.</p>
+            <p>Just pick someone and press 'Check user details' button.</p>
+        </div>
+        <div class="col-md-9 container-right">
+
+            <button [disabled]="!selectedUser" class="container-inner container-button" 
+                        (click)="navToUserDetails()">
+                        Check user details  
+                    </button>
+
+            <data-table class="tab-content" class="container-inner"
+                        [dataSource]="users"
+                        [displayedColumns]="displayedColumns"
+                        [englishColumnNames]="englishColumnNames"
+                        (onSelect)="onRowSelect($event)">
+            </data-table>
+        </div>
+    </div>
+</div>
+
+

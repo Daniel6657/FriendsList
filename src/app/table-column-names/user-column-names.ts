@@ -1,11 +1,11 @@
 export class UserColumnNames {
   static readonly englishColumnNames: string[] =
     [
-      "First name", "Last name", "Nationality"
+      "Last name", "First name", "Nationality"
     ];
 
   static readonly displayedColumns: string[] =
     [
-      "firstname", "lastname", "nationality"
+      "lastName", "firstName", "nationality"
     ];
 }

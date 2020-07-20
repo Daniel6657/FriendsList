@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\data-table",
+    "\\src\\app\\components\\user-list",
+    "\\src\\app\\models",
+    "\\src\\app\\services",
+    "\\src\\app\\table-column-names"
+  ],
+  "SelectedNode": "\\src\\app\\components\\data-table\\data-table.component.spec.ts",
+  "PreviewInSolutionExplorer": false
+}
