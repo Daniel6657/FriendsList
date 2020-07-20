@@ -14,6 +14,6 @@ Node: 12.13.1
 
 1. Clone repository
 2. Run powershell
-3. Navigate to .../PersonalDataManager/src/app
+3. Navigate to .../FriendsList-master/FriendsList-master/src/app
 4. Type ```ng serve --open ```
 
