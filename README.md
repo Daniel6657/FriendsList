@@ -15,5 +15,6 @@ Node: 12.13.1
 1. Clone repository
 2. Run powershell
 3. Navigate to .../FriendsList-master/FriendsList-master/src/app
-4. Type ```ng serve --open ```
+4. type ``npm install --save-dev @angular-devkit/build-angular``
+5. Type ```ng serve --open ```
 
